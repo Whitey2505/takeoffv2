@@ -20,9 +20,9 @@ g := random*20;
 w := random*40;
 r := trunc (g*w);
 gotoxy (10,12);
-writeln ('The gravity on this planet is ',g);
+writeln ('The gravity on this planet is ',g:4:2);
 
-gotoxy(10,13);
+gotoxy(3,13);
 writeln ('input the thrust required to enter orbit without ');
 gotoxy(17,14);
 writeln ('destroying the ship ');
